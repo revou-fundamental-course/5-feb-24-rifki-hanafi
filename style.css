@@ -1,44 +1,38 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #f0f0f0;
+}
+body{
     margin: 0;
     padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-image: url('thermometer-6563465_640.jpg');
 }
-
-.calculator {
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+.container {
+    max-width: 400px;
+    margin: 50px auto;
     padding: 20px;
-    text-align: center;
-}
-
-h2 {
-    margin-top: 0;
-}
-
-input[type="number"] {
-    width: 100px;
-    padding: 8px;
-    margin: 10px 0;
+    background-color: #fff;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
 
-select {
-    padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    margin-right: 10px;
+}
+
+.input-group input[type="number"] {
+    width: 150px;
 }
 
 button {
     padding: 10px 20px;
     background-color: #007bff;
-    color: #fff;
+    color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -50,5 +44,5 @@ button:hover {
 
 .result {
     margin-top: 20px;
-    font-size: 18px;
+    font-weight: bold;
 }
